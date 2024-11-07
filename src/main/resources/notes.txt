@@ -1,0 +1,5 @@
+insert into course (id,name,author) 
+values (1,'aws','sri');
+
+delete from course where id = ?;
+select * from course where id = ?;
